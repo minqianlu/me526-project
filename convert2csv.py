@@ -1,8 +1,8 @@
 import csv
 
 # Define input and output file paths
-input_file = "input.txt"
-output_file = "waves.csv"
+input_file = "./data/pac_waves.txt"
+output_file = "./data/pac_waves.csv"
 
 # Function to convert the input text file to CSV and write it to a CSV file
 def convert_to_csv(input_file, output_file):

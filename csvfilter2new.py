@@ -2,8 +2,8 @@
 import csv
 
 
-input_file = "waves.csv"
-output_file = "waves_filtered.csv"
+input_file = "./data/pac_waves.csv"
+output_file = "./data/pac_waves_filtered.csv"
 
 # Function to extract selected columns and write them to a new file
 def extract_selected_columns(input_file, output_file):
